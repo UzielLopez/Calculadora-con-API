@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="UTF-8" />
+        <title>Calculadora simple</title>
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+
+
+    <body>
+
+        <h1 id="title">Una calculadora simple</h1>
+
+        <div id="main">
+
+            <input type="text" placeholder="A" id="a_num">
+            <p id="sign" style="display: inline;" ></p>
+            <input type="text" placeholder="B" id="b_num">
+            <p style="display: inline;">=</p>
+            <p id="res" style="display: inline;"></p>
+
+            <br>
+
+            <div id="buttons">
+                <button onclick="sum()">Sumar A+B</button>
+                <button onclick="substract()">Restar A-B</button>
+                <button onclick="multiply()">Multiplicar A*B</button>
+                <button onclick="division()">Dividir A*B</button>
+                <button onclick="pow()">A^B</button>
+            </div>
+
+        </div>
+
+
+        <script src="calcFunctions.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </body>
+
+</html>

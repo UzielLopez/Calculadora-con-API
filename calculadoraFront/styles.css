@@ -1,0 +1,45 @@
+body{
+
+    background-color: #01161E;
+
+}
+
+p{
+
+    color: #AEC3B0;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#title{
+
+    color: #598392;
+    text-align: center;
+
+}
+
+#main {
+
+    text-align: center;
+    
+}
+
+#buttons{
+
+    margin: 0 auto;
+    width: 250px;
+    padding-top: 30px;
+    justify-content: center;
+    
+}
+
+#buttons button{
+
+    background-color: #A54657;
+    width: 125px;
+    height: 125px;
+    border-radius: 10px;
+    float: left;
+    margin: 0 auto;
+
+}
